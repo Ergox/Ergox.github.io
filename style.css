@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+    0%{
+        background-color: black;
+
+    }
+    50%{
+        background-color: rgb(104, 104, 104);
+
+    }
+    100%{
+        background-color: black;
+
+    }
+    }
+#a
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    cursor: default;
+    /*background-image: url("pobrane.jpg");*/
+}
+#b
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    cursor: default;
+    /*background-image: url("pobrane(1).jpg");*/
+}
