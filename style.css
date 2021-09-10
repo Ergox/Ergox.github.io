@@ -23,7 +23,7 @@ body
 {
     float: left;
     width: 50%;
-    height: 100%;
+    height: 95%;
     background-color: blue;
     cursor: default;
     /*background-image: url("pobrane.jpg");*/
@@ -32,8 +32,14 @@ body
 {
     float: left;
     width: 50%;
-    height: 100%;
+    height: 95%;
     background-color: orange;
     cursor: default;
     /*background-image: url("pobrane(1).jpg");*/
+}
+#topdiff
+{
+    background-color: white;
+    height: 5%;
+    text-align: center;
 }
